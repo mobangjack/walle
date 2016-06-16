@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\robot">
+      <UniqueIdentifier>{623e29ad-54cc-4756-addf-d00e89a6585e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vision">
+      <UniqueIdentifier>{4c8dc00d-4c1a-47c2-808f-ebbcb3413704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vision\tracker">
+      <UniqueIdentifier>{df554688-1c15-4158-81d2-f840139512bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\robot\cmsis">
+      <UniqueIdentifier>{5d4e283e-275c-457c-b9f7-527cc2bd46ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vision\tracker\kcf">
+      <UniqueIdentifier>{1e0c9209-0686-4186-b150-29fe121e18c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\robot">
+      <UniqueIdentifier>{e04332c7-6354-4bad-82a1-2a243ff594b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\vision">
+      <UniqueIdentifier>{78ad5770-a9a5-419a-b392-965614d1bad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\robot\cmsis">
+      <UniqueIdentifier>{31fd66e1-2ddf-4564-82c9-914fc3cf3b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\vision\tracker">
+      <UniqueIdentifier>{e72b45c7-daa0-4f18-8826-da51ea25e6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\vision\tracker\kcf">
+      <UniqueIdentifier>{4cd048a5-83a1-4d92-8994-8371578a6ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vision\detector">
+      <UniqueIdentifier>{257cd9cf-6537-4638-a54c-f448151e1520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\vision\detector">
+      <UniqueIdentifier>{1491f786-c8a7-4c80-923c-6c7f9ea7e224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\robot\serial">
+      <UniqueIdentifier>{c2d8d8f5-1d37-4979-8957-4da4366c04ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\robot\serial">
+      <UniqueIdentifier>{1cbc0e8d-51a5-4a5e-8ade-6612efc1afb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\vision\detector\hogsvm">
+      <UniqueIdentifier>{01735905-17c0-4087-8d54-5169e94d55b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vision\detector\hogsvm">
+      <UniqueIdentifier>{65fe2c97-4a74-4e54-afa2-11c0907a3bd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\vision\tracker\kcf\fhog.cpp">
+      <Filter>源文件\vision\tracker\kcf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vision\tracker\kcf\kcftracker.cpp">
+      <Filter>源文件\vision\tracker\kcf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\walle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\robot\robot.cpp">
+      <Filter>源文件\robot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vision\vision.cpp">
+      <Filter>源文件\vision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\robot\cmsis\cbus.c">
+      <Filter>源文件\robot\cmsis</Filter>
+    </ClCompile>
+    <ClCompile Include="src\robot\serial\src\serial.cc">
+      <Filter>源文件\robot\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vision\detector\hogsvm\MyHOG.cpp">
+      <Filter>源文件\vision\detector\hogsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vision\detector\hogsvm\MySVM.cpp">
+      <Filter>源文件\vision\detector\hogsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vision\detector\hogsvm\HogSvm.cpp">
+      <Filter>源文件\vision\detector\hogsvm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\robot\serial\src\impl\win.cc">
+      <Filter>源文件\robot\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\robot\serial\src\impl\list_ports\list_ports_win.cc">
+      <Filter>源文件\robot\serial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\vision\tracker\kcf\ffttools.hpp">
+      <Filter>头文件\vision\tracker\kcf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vision\tracker\kcf\fhog.hpp">
+      <Filter>头文件\vision\tracker\kcf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vision\tracker\kcf\kcftracker.hpp">
+      <Filter>头文件\vision\tracker\kcf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vision\tracker\kcf\labdata.hpp">
+      <Filter>头文件\vision\tracker\kcf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vision\tracker\kcf\recttools.hpp">
+      <Filter>头文件\vision\tracker\kcf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\robot\robot.hpp">
+      <Filter>头文件\robot</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vision\tracker\tracker.hpp">
+      <Filter>头文件\vision\tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\walle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vision\vision.hpp">
+      <Filter>头文件\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vision\detector\detector.hpp">
+      <Filter>头文件\vision\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\robot\cmsis\cbus.h">
+      <Filter>头文件\robot\cmsis</Filter>
+    </ClInclude>
+    <ClInclude Include="src\robot\serial\include\serial\serial.h">
+      <Filter>头文件\robot\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vision\detector\hogsvm\MyHOG.hpp">
+      <Filter>头文件\vision\detector\hogsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vision\detector\hogsvm\MySVM.hpp">
+      <Filter>头文件\vision\detector\hogsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vision\detector\hogsvm\HogSvm.hpp">
+      <Filter>头文件\vision\detector\hogsvm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\robot\serial\include\serial\v8stdint.h">
+      <Filter>头文件\robot\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\robot\serial\include\serial\impl\win.h">
+      <Filter>头文件\robot\serial</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
